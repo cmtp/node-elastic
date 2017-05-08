@@ -1,0 +1,25 @@
+{
+  "name": "node-elastic",
+  "version": "1.0.0",
+  "description": "This is an example of elastic search with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmtp/node-elastic.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "elastic",
+    "nodejs",
+    "node-elastic"
+  ],
+  "author": "christian tola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmtp/node-elastic/issues"
+  },
+  "homepage": "https://github.com/cmtp/node-elastic#readme"
+}

@@ -10,8 +10,8 @@ app.use(morgan('dev'));
 
 consign()
 .include("src/db.js")
-.then("src/boot.js")
 .then("src/models")
+.then("src/libs/middlewares.js")
+.then("src/routes")
+.then("src/libs/boot.js")
 .into(app);
-
-app.listen(PORT, () => console.log(`API REST - PORT ${PORT}`));
